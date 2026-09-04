@@ -1,0 +1,21 @@
+[
+  { "id": 1, "categoria": "Cuidado facial", "nombre": "Crema hidratante día", "foto": "/placeholder.jpg", "tonos": [], "precio": 35000, "disponible": true },
+  { "id": 2, "categoria": "Cuidado facial", "nombre": "Sérum vitamina C", "foto": "/placeholder.jpg", "tonos": [], "precio": 42000, "disponible": true },
+  { "id": 3, "categoria": "Brochas", "nombre": "Kit brocha para base", "foto": "/placeholder.jpg", "tonos": [], "precio": 28000, "disponible": true },
+  { "id": 4, "categoria": "Brochas", "nombre": "Brocha difuminadora", "foto": "/placeholder.jpg", "tonos": [], "precio": 19000, "disponible": true },
+  { "id": 5, "categoria": "Pestañas / Pestañinas", "nombre": "Máscara de pestañas volumen", "foto": "/placeholder.jpg", "tonos": [], "precio": 22000, "disponible": true },
+  { "id": 6, "categoria": "Pestañas / Pestañinas", "nombre": "Pestañas postizas glamour", "foto": "/placeholder.jpg", "tonos": [], "precio": 15000, "disponible": true },
+  { "id": 7, "categoria": "Brillos / Gloss", "nombre": "Gloss cereza", "foto": "/placeholder.jpg", "tonos": ["Cereza", "Miel", "Vainilla"], "precio": 18000, "disponible": true },
+  { "id": 8, "categoria": "Brillos / Gloss", "nombre": "Gloss nude brillo", "foto": "/placeholder.jpg", "tonos": ["Nude", "Rosado"], "precio": 17000, "disponible": true },
+  { "id": 9, "categoria": "Paletas / Sombras", "nombre": "Paleta de sombras rosas", "foto": "/placeholder.jpg", "tonos": [], "precio": 65000, "disponible": true },
+  { "id": 10, "categoria": "Paletas / Sombras", "nombre": "Sombra individual shimmer", "foto": "/placeholder.jpg", "tonos": ["Oro", "Cobre", "Champán"], "precio": 14000, "disponible": true },
+  { "id": 11, "categoria": "Delineadores ojos / labios", "nombre": "Delineador líquido negro", "foto": "/placeholder.jpg", "tonos": [], "precio": 16000, "disponible": true },
+  { "id": 12, "categoria": "Delineadores ojos / labios", "nombre": "Perfilador de labios", "foto": "/placeholder.jpg", "tonos": ["Rosado", "Nude"], "precio": 13000, "disponible": true },
+  { "id": 13, "categoria": "Polvos sueltos", "nombre": "Polvo translúcido fijador", "foto": "/placeholder.jpg", "tonos": ["Translúcido"], "precio": 26000, "disponible": true },
+  { "id": 14, "categoria": "Polvos sueltos", "nombre": "Polvo suelto iluminador", "foto": "/placeholder.jpg", "tonos": ["Natural", "Dorado"], "precio": 24000, "disponible": true },
+  { "id": 15, "categoria": "Bases + correctores", "nombre": "Base líquida velvet", "foto": "/placeholder.jpg", "tonos": ["Marfil", "Natural", "Cálido"], "precio": 38000, "disponible": true },
+  { "id": 16, "categoria": "Bases + correctores", "nombre": "Corrector iluminador", "foto": "/placeholder.jpg", "tonos": ["Light", "Medium"], "precio": 21000, "disponible": false },
+  { "id": 17, "categoria": "Rubores e iluminadores", "nombre": "Rubor en polvo rosado", "foto": "/placeholder.jpg", "tonos": ["Rosado", "Melocotón"], "precio": 20000, "disponible": true },
+  { "id": 18, "categoria": "Rubores e iluminadores", "nombre": "Iluminador dorado", "foto": "/placeholder.jpg", "tonos": ["Dorado", "Champán"], "precio": 23000, "disponible": true },
+  { "id": 19, "categoria": "Fijadores", "nombre": "Spray fijador de maquillaje", "foto": "/placeholder.jpg", "tonos": [], "precio": 32000, "disponible": true }
+]
