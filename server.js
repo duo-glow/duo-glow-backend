@@ -1,6 +1,8 @@
+require("dotenv").config();
+
 const express = require("express");
 const cors = require("cors");
-const productos = require("./data/productos.json");
+const supabase = require("./supabase");
 
 const app = express();
 
@@ -14,17 +16,23 @@ app.get("/api/health", (req, res) => {
   res.json({ status: "ok" });
 });
 
-app.get("/api/productos", (req, res) => {
+app.get("/api/productos", async (req, res) => {
   const { categoria } = req.query;
-  let resultado = productos;
+
+  let query = supabase.from("productos").select("*").order("id", { ascending: true });
 
   if (categoria) {
-    resultado = productos.filter(
-      (p) => p.categoria.toLowerCase() === categoria.toLowerCase()
-    );
+    query = query.ilike("categoria", categoria);
   }
 
-  res.json(resultado);
+  const { data, error } = await query;
+
+  if (error) {
+    console.error("Error consultando Supabase:", error.message);
+    return res.status(500).json({ error: "No se pudieron obtener los productos" });
+  }
+
+  res.json(data);
 });
 
 const PORT = process.env.PORT || 4000;
